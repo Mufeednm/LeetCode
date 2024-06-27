@@ -5,6 +5,6 @@
 // console.log(num1);
 
 var multiply = function(num1, num2) {
-  return  parseInt(num1)  * parseInt( num2)
+  return (num1 * num2).toString();
 };
-console.log(multiply("25","61"));
+console.log(multiply("123","456"));
