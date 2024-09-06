@@ -1,1 +1,3 @@
-.slice().sort((a, b) => fn(a) - fn(b));
+    if (index<nums.length) {
+     result.push(nums[index])
+    }
