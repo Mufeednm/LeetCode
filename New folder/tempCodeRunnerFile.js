@@ -1,4 +1,2 @@
-    // if (ans.length===0) {
 
-    //     return -1
-    // }
+    return a[i]

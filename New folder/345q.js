@@ -1,6 +1,14 @@
 var reverseVowels = function(s) {
-  const ans =""
-  const vowels =   
+  let answer=""
+  const ans =s.split("")
+  const vowels =  ["a","e","i","o","u"] 
+  for (let i = 0; i < ans.length; i++) {
+    if (ans[i]==vowels[i]) {
+      answer.push(vowels[i])
+    }
+    
+  }
+  return answer
 };
 
 const s= "IceCreAm"
